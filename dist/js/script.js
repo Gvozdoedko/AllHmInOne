@@ -10,7 +10,7 @@ function main() {
                 HM7();
                 break;
             case 2:
-                HM8();
+                HM8(students);
                 break;
             case 3:
                 HM9();

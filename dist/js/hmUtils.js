@@ -35,14 +35,16 @@ function HM7() {
 
 
 
-function HM8() {
+function HM8(students) {
     let newNamesArr = [];
-    students.forEach((onlyName) => {
-        newNamesArr.push(onlyName.name);
-    })
-    console.log(students);
-    console.log(newNamesArr);
 
+    students.map(function (item) {
+            newNamesArr.push(item.name);
+    });
+
+
+
+    console.log(newNamesArr);
 }
 
 
