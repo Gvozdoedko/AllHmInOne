@@ -36,15 +36,7 @@ function HM7() {
 
 
 function HM8(students) {
-    let newNamesArr = [];
-
-    students.map(function (item) {
-            newNamesArr.push(item.name);
-    });
-
-
-
-    console.log(newNamesArr);
+    console.log(students.map(item => item.name));
 }
 
 
